@@ -18,11 +18,8 @@ body {
     color: #2e2e2e;
     line-height: 1.6;
     transition: background 0.4s ease, color 0.3s ease;
-}
-
-
-body {
     padding-top: 90px;
+
 }
 
 /* Layout Helpers */
@@ -273,9 +270,7 @@ body.dark textarea {
     color: #f1f5f9;
     border-color: #334155;
 }
-.alt-section {
-    background: transparent;
-}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {

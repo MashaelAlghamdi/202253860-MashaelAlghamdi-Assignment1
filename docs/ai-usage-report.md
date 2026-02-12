@@ -44,10 +44,12 @@ AI-generated explanations were reviewed to ensure full understanding before impl
 
 Through using AI in this project, I learned:
 
-- How to implement a theme toggle using JavaScript.
-- How to apply blended gradient backgrounds.
-- How to structure responsive layouts using Flexbox.
-- The importance of reviewing and refining generated code.
+
+- How to implement a theme toggle using JavaScript by dynamically adding and removing a CSS class from the `<body>` element.
+- Why `localStorage` works for theme persistence: it stores key-value data directly in the browser, allowing the selected theme ("dark" or "light") to remain saved even after refreshing or reopening the page.
+- How CSS overrides base styles in dark mode: when the `dark` class is added to the `<body>`, more specific selectors (e.g., `body.dark .navbar`) take priority over the default styles due to higher specificity.
+- How to structure responsive layouts using Flexbox and media queries.
+- The importance of reviewing, modifying, and fully understanding AI-generated code before integrating it into a project.
 
 ---
 
