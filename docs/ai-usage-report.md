@@ -2,21 +2,21 @@
 
 ## 1. AI Tools Used
 
-- ChatGPT
+- ChatGPT and GitHub Copilot.
 
 ---
 
 ## 2. How AI Was Used (Use Cases)
 
-AI was used as a support tool during the development of this project. It assisted with:
+AI was used for debugging JavaScript logic, explaining CSS specificity, and refining documentation. It was used as a support tool during the development of this project. 
 
-- Generating initial layout structure ideas.
-- Suggesting improvements to CSS styling.
-- Debugging layout and dark mode issues.
-- Refining the wording of the portfolio description.
-- Structuring documentation content.
+The tools were used as follows:
 
-AI was used as a helper to improve understanding and efficiency.
+- **ChatGPT** – Used for explaining JavaScript logic (dark mode with localStorage), clarifying CSS specificity behavior, suggesting layout improvements, debugging, and refining documentation wording.
+
+- **GitHub Copilot** – Used for suggesting syntax improvements, completing repetitive code patterns, and assisting with small JavaScript and CSS snippets.
+
+ChatGPT was primarily used for conceptual clarification and debugging discussions, while GitHub Copilot supported real-time coding inside the editor through the auto-completion.
 
 ---
 
@@ -26,7 +26,7 @@ Using AI helped with:
 
 - Faster development and problem-solving.
 - Understanding how certain CSS properties work.
-- Learning how to implement dark mode with `localStorage`.
+- Learning how to implement dark mode with localStorage.
 - Improving the clarity of documentation.
 
 ---
@@ -57,4 +57,9 @@ Through using AI in this project, I learned:
 
 All AI-generated suggestions were carefully reviewed and adjusted.  
 The final code reflects personal understanding and modifications.  
-AI was used as a learning assistant rather than a direct copy-paste solution.
+AI was used as a learning assistant rather than a direct copied solution.
+
+
+## 7. Innovative Use of AI
+
+AI was used beyond basic code generation. It supported decision-making by comparing different layout strategies. Multiple styling variations were tested based on AI suggestions before selecting the final design. AI also enhanced workflow efficiency by assisting with debugging and conceptual clarification, allowing more time to focus on user experience and responsiveness improvements.

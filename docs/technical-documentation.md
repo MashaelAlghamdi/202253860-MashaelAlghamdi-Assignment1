@@ -29,7 +29,7 @@ The website is divided into the following main sections:
 - Designed to act as the main entry point of the portfolio.
 
 ### About Section
-- Brief description about the student.
+- Brief description about me.
 - Simple and clean layout for readability.
 
 ### Projects Section
@@ -53,9 +53,10 @@ The website is divided into the following main sections:
 Responsiveness is implemented using:
 
 - Flexbox for layout alignment.
-- Media queries to adjust layout for screens smaller than 768px.
+- Media queries using `@media (max-width: 768px)` adjust layout behavior for tablets and mobile devices. The `.project-card` flex direction changes from row to column to maintain readability.
 - Project cards stack vertically on smaller screens.
 - Images resize to full width on mobile devices.
+
 
 ---
 
@@ -67,6 +68,8 @@ Dark mode is implemented using:
 - Adding/removing a `dark` class to the `<body>` element.
 - Separate CSS rules for dark mode styles.
 - `localStorage` to remember the selected theme between page reloads.
+- JavaScript uses `document.addEventListener("DOMContentLoaded")` to ensure DOM elements are fully loaded before event listeners are attached. The theme preference is stored using the browser's localStorage API as a key-value pair.
+
 
 ---
 
@@ -75,6 +78,7 @@ Dark mode is implemented using:
 - No external frameworks were used.
 - Lightweight CSS and minimal JavaScript.
 - Images stored locally for stability.
+- Images use the `loading="lazy"` attribute to improve page load performance.
 - Clean and organized code structure.
 
 ---
@@ -82,6 +86,5 @@ Dark mode is implemented using:
 ## 7. Future Improvements
 
 - Add animations or transitions.
-- Improve accessibility (ARIA labels, keyboard navigation).
 - Add links to live projects or GitHub repositories.
 - Deploy the project publicly.
