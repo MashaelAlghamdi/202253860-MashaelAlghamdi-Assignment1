@@ -132,7 +132,9 @@ body {
 .alt-section {
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(8px);
+    background: transparent;
 }
+
 
 .project-card {
     display: flex;
